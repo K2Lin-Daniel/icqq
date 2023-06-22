@@ -329,8 +329,8 @@ const apklist: { [platform in Platform]: Apk } = {
     [Platform.Android]: mobile,
     [Platform.old_Android]: old_mobile,
     [Platform.aPad]: {
-        ...mobile,
-        subid: 537155599,
+        ...old_mobile,
+        subid: 537118044,
         display: 'aPad'
     },
     [Platform.Watch]: watch,
